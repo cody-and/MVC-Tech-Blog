@@ -1,0 +1,7 @@
+<h1>Dashboard</h1>
+<ul>
+  {{#each posts}}
+    <li><a href="/posts/{{id}}">{{title}}</a></li>
+  {{/each}}
+</ul>
+<a href="/posts/new">Add New Post</a>
