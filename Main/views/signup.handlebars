@@ -1,6 +1,26 @@
-<h1>Signup</h1>
-<form method="POST" action="/auth/signup">
-  <input type="text" name="username" placeholder="Username" required>
-  <input type="password" name="password" placeholder="Password" required>
-  <button type="submit">Signup</button>
-</form>
+<div class="card">
+
+  <h2 class="card-header">SIGN UP</h2>
+
+  <form class="card-body signup-form">
+
+    <div class="form-group">
+      <label class="form-label">Username:</label>
+      <input class="form-input" type="text" id="username-input-signup" />
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">Password:</label>
+      <input class="form-input" type="password" id="password-input-signup" />
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">SIGN UP</button>
+    </div>
+
+  </form>
+      <br>
+    <a href="/login">Login Instead</a>
+
+</div>
+<script src="/js/signup.js"></script>
